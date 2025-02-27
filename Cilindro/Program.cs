@@ -7,14 +7,20 @@ namespace Cilindro
         private static void Main(string[] args)
         {
             Console.WriteLine("Indica a altura do cilindro: ");
-            int input = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Indica o raio do cilindro: ");
-            int input1 = int.Parse(Console.ReadLine());
+            double r = double.Parse(Console.ReadLine());
 
-            
+             
 
+            double volume =  Math.PI * Math.Pow(r, 2) *  a;
 
+            Console.WriteLine($"{volume:F3}");
+
+            double area = 2 * Math.PI * r * (r + a);
+
+            Console.WriteLine($"{area:F3}"); 
     
         }
     }
