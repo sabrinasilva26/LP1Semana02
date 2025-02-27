@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothOperator", "SmoothOpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio02", "Exercicio02\Exercicio02.csproj", "{1A4F6F1C-7101-44DC-B597-ED2027D1F2B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio03", "Exercicio03\Exercicio03.csproj", "{C47B33E6-EB1F-4FA2-98BA-57DE96FEAC4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1A4F6F1C-7101-44DC-B597-ED2027D1F2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4F6F1C-7101-44DC-B597-ED2027D1F2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4F6F1C-7101-44DC-B597-ED2027D1F2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47B33E6-EB1F-4FA2-98BA-57DE96FEAC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47B33E6-EB1F-4FA2-98BA-57DE96FEAC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47B33E6-EB1F-4FA2-98BA-57DE96FEAC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47B33E6-EB1F-4FA2-98BA-57DE96FEAC4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
