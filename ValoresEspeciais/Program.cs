@@ -21,6 +21,10 @@ namespace ValoresEspeciais
           short st = short.MaxValue;
           short st1 = short.MinValue;
 
+          float a = float.PositiveInfinity;
+          float b = float.NegativeInfinity;
+          double d = double.NaN;
+
           Console.WriteLine($"{sb}");
           Console.WriteLine($"{sb1}");
           Console.WriteLine($"{db}");
@@ -35,6 +39,16 @@ namespace ValoresEspeciais
           Console.WriteLine($"{bt1}");
           Console.WriteLine($"{st}");
           Console.WriteLine($"{st1}");
+
+          Console.WriteLine($"{a}");
+          Console.WriteLine($"{b}");
+          Console.WriteLine($"{d}");
+
+          Console.WriteLine((sbyte)(sb+ 1));
+          Console.WriteLine((sbyte)(sb1 - 1));
+          Console.WriteLine((byte)(2 * bt));
+
+
 
 
         }
