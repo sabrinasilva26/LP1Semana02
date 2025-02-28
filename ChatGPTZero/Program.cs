@@ -29,6 +29,9 @@ namespace ChatGPTZero
                 default:
                     response = "You got me, I'm not THAT smart!";
                     break;
+                case: "Are you more intelligent than me?";
+                    response = "Obviously!";
+                    break;
             }
 
             // Responder adequadamente
